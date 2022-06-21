@@ -1,0 +1,157 @@
+body {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 42px;
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+
+#buttons button {
+    border: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+
+}
+
+#buttons button:hover{
+    padding: 11px 16px;
+}
+
+
+#container {
+    display: flex;
+    width: 300px;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box{
+    height: 100px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    flex: 1 1 33%;
+    cursor: pointer;
+
+}
+
+#box-1, #box-2, #box-3{
+    border-top: none;
+}
+
+#box-1, #box-4, #box-7{
+    border-left: none;
+}
+
+#box-7, #box-8, #box-9{
+    border-bottom: none;
+}
+
+#box-3, #box-6, #box-9{
+    border-right: none;
+}
+
+
+
+.x{
+    font-size: 65px;
+    color: #fa5b46;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.o{
+    width: 50px;
+    height: 50px;
+    border: 5px solid #2b134b;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 17px;
+}
+
+.hide{
+    display: none !important;
+} 
+
+
+#placar {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 25px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+#x-score{
+    color: #fa5b46;
+    margin-right: 3px;
+}
+
+#y-score{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 3px;
+    border: 2px solid #2b134b;
+}
+
+.placar-box{
+    margin: 0 20px;
+    color: white;
+}
+
+
+#message p {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left:0;
+    right:0;
+    top: 150px;
+    width: 500px;
+    font-size: 50px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+ 
+
+}
+
+.home{
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.home:hover{
+    padding: 6px 22px;
+}
+
+.win1{
+    color: #fa5b46 !important;
+
+}
+
+.win2{
+    color: #2b134b !important;
+}
+
+.deuvelha{
+    color: red !important;
+}
