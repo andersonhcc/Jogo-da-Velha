@@ -32,8 +32,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Imagens
 
-<h1 align="center">
+<h1 align="center" style="display: flex; flex-direction: column">
   <img alt="PrintDaInterfaceInicial"  src="./prints/screen1.png" / style="width: 300px; height: 300px">
-  <img alt="PrintDoJogo" src="./prints/screen2.png" style="width: 300px; height: 300px"> />
+  <img alt="PrintDoJogo" src="./prints/screen2.png" style="width: 400px; height: 400px">
 </h1>
 
